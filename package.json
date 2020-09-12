@@ -1,0 +1,31 @@
+{
+  "name": "cookies",
+  "version": "1.0.0",
+  "description": "Plugin para exibição de mensagem sobre uso de cookies",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --host 0.0.0.0 --disable-host-check",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": [
+    {
+      "name": "Gustavo Koch",
+      "email": "gustavok@outlook.com.br"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.5.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
