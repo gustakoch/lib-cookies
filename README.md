@@ -41,7 +41,13 @@ Referente as informações passadas no objeto, temos:
 }
 ```
 
-## Uso na web ##
+## Gerando o arquivo cookies.js ##
+
+* Primeiramente, faça o download/clone desse repositório para o seu computador;
+* Instale as dependências rodando o comando **yarn** no terminal;
+* Com as dependências instaladas, rode o comando **yarn build** no terminal.
+* Será gerada uma pasta dist contendo o arquivo `cookies.js` minificado. Adicione o arquivo a página html ao qual deseja que a mensagem de cookies seja exibida.
+
+## Funcionamento da web ##
 
 A mensagem é exibida e apenas quando o usuário clicar em "Aceitar", a box é removida e dessa forma não será mais exibida.
-
